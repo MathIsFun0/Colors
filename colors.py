@@ -31,12 +31,29 @@ color_words = [
     "beige",
     "amber",
     "lilac",
+    "lavender",
+    "violet",
+    "teal",
+    "mauve",
+    "chartreuse",
+    "peach",
+    "slate",
+    "olive",
+    "tan",
+    "periwinkle",
+    "coral",
+    "fuchsia"
 ]
 
 # Read the text file
 def read_text_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         text = file.read().replace("\n", " ")
+    return text
+# Read the text file
+def read_text_file_with_n(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        text = file.read().split("\n")
     return text
 
 # Extract color words and their sentences from the text
@@ -56,13 +73,31 @@ def extract_color_words_and_sentences(text):
     return color_sentences
 
 if __name__ == "__main__":
-    file_path = "ch3.txt"  # Replace with the path to your text file
+    file_path = "The Great Gatsby/ch3.txt"  # Replace with the path to your text file
     text = read_text_file(file_path)
+    splittext = read_text_file_with_n(file_path)
 
     color_sentences = extract_color_words_and_sentences(text)
 
     for color, sentences in color_sentences.items():
         print(f"{color.capitalize()} sentences:")
         for sentence in sentences:
-            print(f"- {sentence.strip()}")
+            words = sentence.split(" ")
+            num_matches = -1
+            num_words = 0
+            lookahead = 0
+            matchnum = 0
+            while num_matches != 1:
+                num_matches = 0
+                matchnum = 0
+                for i in range(len(splittext)):
+                    if " ".join(words[0:num_words]) in " ".join(splittext[i:i+lookahead]):
+                        if matchnum == 0:
+                            matchnum = i+1
+                        num_matches += 1
+                num_words += 1
+                if (num_words > len(words)):
+                    lookahead += 1
+                    num_words = 0
+            print(f"- ({matchnum}) {sentence.strip()}")
         print()

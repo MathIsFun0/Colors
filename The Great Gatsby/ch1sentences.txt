@@ -13,22 +13,22 @@ White sentences:
 - (211) The windows were ajar and gleaming white against the fresh grass outside that seemed to grow a little way into the house.
 - (220) They were both in white, and their dresses were rippling and fluttering as if they had just been blown back in after a short flight around the house.
 - (379) Sometimes she and Miss Baker talked at once, unobtrusively and with a bantering inconsequence that was never quite chatter, that was as cool as their white dresses and their impersonal eyes in the absence of all desire.
-- (ignore) The idea is if we don't look out the white race will be--will be utterly submerged.
-- (ignore) There's a bird on the lawn that I think must be a nightingale come over on the Cunard or White Star Line.
+- (402) The idea is if we don't look out the white race will be--will be utterly submerged.
+- (502) There's a bird on the lawn that I think must be a nightingale come over on the Cunard or White Star Line.
 - (634) Our white girlhood was passed together there. Our beautiful white----"  "Did you give Nick a little heart to heart talk on the veranda?"
 
 Black sentences:
 - (270) All the cars have the left rear wheel painted black as a mourning wreath, and there's a persistent wail all night along the north shore."
-- (ignore) We all looked--the knuckle was black and blue.
+- (367) We all looked--the knuckle was black and blue.
 
 Gray sentences:
 - (327) Her gray sun-strained eyes looked back at me with polite reciprocal curiosity out of a wan, charming, discontented face.
 
 Blue sentences:
-- (ignore) We all looked--the knuckle was black and blue.
+- (367) We all looked--the knuckle was black and blue.
 
 Silver sentences:
-- (ignore) "Well, he wasn't always a butler; he used to be the silver polisher for some people in New York that had a silver service for two hundred people.
+- (436) "Well, he wasn't always a butler; he used to be the silver polisher for some people in New York that had a silver service for two hundred people.
 - (689) The silhouette of a moving cat wavered across the moonlight, and turning my head to watch it, I saw that I was not alone--fifty feet away a figure had emerged from the shadow of my neighbor's mansion and was standing with his hands in his pockets regarding the silver pepper of the stars.
 
 Crimson sentences:
