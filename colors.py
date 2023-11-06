@@ -77,7 +77,7 @@ def extract_color_words_and_sentences(text):
     return color_sentences
 
 if __name__ == "__main__":
-    file_path = "The Great Gatsby/ch6.txt"  # Replace with the path to your text file
+    file_path = "The Great Gatsby/everything.txt"  # Replace with the path to your text file
     text = read_text_file(file_path)
     splittext = read_text_file_with_n(file_path)
 

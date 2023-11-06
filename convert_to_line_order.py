@@ -1,4 +1,4 @@
-file_path = "The Great Gatsby/ch6sentences.txt"  # Replace with the path to your text file
+file_path = "The Great Gatsby/everysentence.txt"  # Replace with the path to your text file
 
 with open(file_path, 'r') as file:
     lines = file.readlines()
